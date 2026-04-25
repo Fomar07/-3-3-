@@ -112,4 +112,4 @@ if (a = 10) {
 
 В описание WordWall добавьте:
 
-`Исходные коды сложных заданий: https://github.com/Fomar07/-3-3-`
+`Исходные коды сложных заданий: https://github.com/Fomar07/WebSRSP3`
