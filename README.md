@@ -40,7 +40,7 @@
 
 Пример ссылки:
 
-`https://github.com/Fomar07/-3-3-`
+`https://github.com/Fomar07/WebSRSP3`
 
 ## Что рекомендуется приложить при сдаче
 
