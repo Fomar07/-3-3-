@@ -11,6 +11,6 @@
 
 Исходные коды сложных заданий:
 
-`https://github.com/Fomar07/-3-3-`
+`https://github.com/Fomar07/WebSRSP3`
 
 Формат выполнения: WordWall (`Match`, `Open the Box`).
