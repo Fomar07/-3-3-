@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СРС №4 | Архитектура темы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <nav class="topbar" aria-label="Навигация по проекту">
+        <a class="nav-link" href="index.html">Главная</a>
+        <a class="nav-link is-active" href="guide.html">Архитектура</a>
+        <a class="nav-link" href="quiz.html">Квест</a>
+      </nav>
+
+      <p class="eyebrow">Общая логика проекта</p>
+      <h1>Как тема применяется на нескольких страницах</h1>
+      <p class="lead">
+        Эта страница показывает, как один и тот же набор CSS-переменных и один
+        JavaScript-файл позволяют поддерживать единое поведение темы во всем проекте.
+      </p>
+
+      <div class="controls">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          <span class="toggle-label">Сменить тему</span>
+          <span id="theme-status" class="status">Сейчас: светлая</span>
+        </button>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-box">
+          <h2>1. Общий CSS</h2>
+          <p>Все страницы используют единый набор переменных для фона, текста, акцентов и карточек.</p>
+        </article>
+        <article class="step-box">
+          <h2>2. Общий JavaScript</h2>
+          <p>Один файл управляет переключением темы, чтением localStorage и восстановлением состояния.</p>
+        </article>
+        <article class="step-box">
+          <h2>3. Общий ключ хранения</h2>
+          <p>Во всех страницах используется одно значение <code>preferred-theme</code>.</p>
+        </article>
+      </div>
+
+      <section class="section-block">
+        <h2>Почему это удобно</h2>
+        <div class="compare-grid">
+          <article class="note-box">
+            <h3>Для небольшого проекта</h3>
+            <ul class="compare-list">
+              <li>не нужно дублировать код на каждой странице</li>
+              <li>достаточно подключить один JS-файл</li>
+              <li>тема выглядит одинаково во всех разделах</li>
+            </ul>
+          </article>
+          <article class="note-box">
+            <h3>Для расширения</h3>
+            <ul class="compare-list">
+              <li>можно вынести тему в отдельный модуль</li>
+              <li>можно добавить новые варианты оформления</li>
+              <li>можно развивать проект без переписывания базы</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
